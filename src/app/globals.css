@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .dense {
+    font-size: 12.5px;
+  }
+  .zebra:nth-child(even) {
+    background-color: theme('colors.slate.50');
+  }
+  .sticky {
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.06);
+  }
+  .toolbar {
+    @apply flex items-center gap-2 p-2 border-b border-border;
+  }
+  .panel {
+    @apply p-4 border-l border-border;
+  }
+}
