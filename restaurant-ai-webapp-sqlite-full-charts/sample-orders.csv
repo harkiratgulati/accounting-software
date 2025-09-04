@@ -1,4 +1,0 @@
-order_time,channel,subtotal,tax,fees,discount,item_name,item_sku,item_price,qty
-2025-08-01T10:00:00Z,pos,300,15,5,0,Paneer Tikka,PTIK,150,2
-2025-08-01T11:30:00Z,zomato,200,10,8,20,Butter Naan,BNAN,50,4
-2025-08-02T13:00:00Z,swiggy,450,22,12,0,Paneer Tikka,PTIK,150,3
